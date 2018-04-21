@@ -6,4 +6,6 @@ def initialize(name, type, db)
   @type = type
   @db = db
 end
+
+
 end
