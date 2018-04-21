@@ -13,7 +13,7 @@ class Pokemon
   end
 
   def self.find(name, db)
-    db.execute("SELECT * FROM pokemon ORDER BY id")
+    db.execute("SELECT * FROM pokemon ORDER BY name")
   end
 
 
